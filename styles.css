@@ -1,12 +1,19 @@
 h1 {
 	color: red;
+    text-align: center;
 }
 p1 {
-	color: green;
+	color: rgb(76,228,21);
 }
+
 html {
-    background: url('gaming-wallpapers.jpg');
+    background: url('background.jpg');
     font-size: 10pt;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 .loginform ul {
