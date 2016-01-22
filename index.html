@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="First page of Log.com"/>
+	<meta name="robots" content="index,follow"/>
+	<title>Wellcome to league of gamers</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript">
+            function loadPage(href)
+            {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.open("GET", href, false);
+                xmlhttp.send();
+                return xmlhttp.responseText;
+            }
+        </script>
+</head>
+
+<body onload="alert('Warning!!Best web site ever!!')">
+
+	<div id="wrapper">
+		<h1>Wellcome to LeagueofGamers.com</h1>
+
+		<p1>Our site is under construction!!</p1>
+
+		<hr>
+
+		<section class="loginform cf">
+		<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+    			<ul>
+    				<p>Login</p>
+    	    		<li><label for="usermail">Email</label>
+        			<input type="email" name="usermail" placeholder="yourname@email.com" required></li>
+        			<li><label for="password">Password</label>
+        			<input type="password" name="password" placeholder="password" required></li>
+        			<li>
+        			<input type="submit" value="Login"></li>
+    			</ul>
+			</form>
+		</section>
+
+		<p1>
+		 OR 
+		</p1>
+		<button onclick="location.href='second.html'" id="myButton" class="float-left submit-button" >Register</button>
+		<p id='what'></p>
+	</div>
+</body>
+
+</html>
