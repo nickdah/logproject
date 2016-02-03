@@ -8,30 +8,24 @@
 	<meta name="description" content="First page of Log.com"/>
 	<meta name="robots" content="index,follow"/>
 	<title>Wellcome to league of gamers</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script type="text/javascript">
-            function loadPage(href)
-            {
-                var xmlhttp = new XMLHttpRequest();
-                xmlhttp.open("GET", href, false);
-                xmlhttp.send();
-                return xmlhttp.responseText;
-            }
-        </script>
-    <link rel="shortcut icon" href="games.png"  type="image/png" />
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="shortcut icon" href="./images/games.png"  type="image/png" />
 </head>
 
 <body>
 
-	<div id="wrapper">
-		<h1>Welcome to LeagueofGamers.com</h1>
-
+	<div class="headerMenu">
+		<div id="wraper">
+			<div class="logo">
+				<img src="./images/lol_logo.png"/>
+			</div>
+		</div>
+	</div>
 		<p1>Our site is under construction!!</p1>
-
-		<hr>
+	<div>
 
 		<section class="loginform cf">
-		<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+		<form method="POST" action="./php/login.php">
     			<ul>
     				<p>Login</p>
     	    		<li><label for="usermail">Email</label>
@@ -39,7 +33,7 @@
         			<li><label for="password">Password</label>
         			<input type="password" name="password" placeholder="password" required></li>
         			<li>
-        			<input type="submit" value="Login"></li>
+        			<input id="button" type="submit" name="submit" value="Login"></li>
     			</ul>
 			</form>
 		</section>
