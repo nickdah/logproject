@@ -28,7 +28,7 @@ p1 {
 }
 
 html {
-    background: url('../images/background.jpg');
+    background: url('../images/gamer-wallpaper-A2.jpg');
     font-size: 10pt;
     background-size: cover;
     background-position: center center;
@@ -46,10 +46,14 @@ html {
     display: inline;
     float: left;
 }
-
+.paragraph1{
+    font-size: 20px;
+    color: red;
+}
 label {
+    font-size: 15px;
     display: block;
-    color: #999;
+    color: #17F74C;
 }
 .cf:before,
 .cf:after {
@@ -92,4 +96,39 @@ label {
     margin-top: 15px;
     border-radius: 3px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+h2{
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    color: #17F74C;
+}
+
+
+.in_field{
+    background-color: #FFFFFF;
+    border: 1px solid #D6F657;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.in_field:hover{
+    border: 1px solid #0E6BE5;
+}
+
+.in_but{
+    background-color: #FFFFFF;
+    border: 1px solid #D6F657;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.in_but:hover{
+    background-color: green;
 }

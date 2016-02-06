@@ -1,9 +1,4 @@
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="./css/styles.css">
-	<title></title>
-</head>
-<body>
+
 	<?php
 
 	define('DB_HOST', 'localhost');
@@ -45,5 +40,4 @@
 	}
 
 	?>
-</body>
-</html>
+
